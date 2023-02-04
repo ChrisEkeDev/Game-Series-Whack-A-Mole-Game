@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Game Series: Whack A Mole Game</title>
+  </head>
+  <body>
+    <main id="game_board">
+      <section>
+        <header>
+          <h1>Whack a Mole</h1>
+          <h2>Score: <span class="score">0</span></h2>
+          <h2>Time Left: <span class="seconds">60</span></h2>
+        </header>
+        <div id="grid">
+          <div class="wam_square" id="1">
+            <img class="background" src="images/background.svg" />
+            <img class="mole mole--hidden" src="images/mole.svg" />
+            <img class="foreground" src="images/foreground.svg" />
+          </div>
+          <div class="wam_square" id="2">
+            <img class="background" src="images/background.svg" />
+            <img class="mole mole--hidden" src="images/mole.svg" />
+            <img class="foreground" src="images/foreground.svg" />
+          </div>
+          <div class="wam_square" id="3">
+            <img class="background" src="images/background.svg" />
+            <img class="mole mole--hidden" src="images/mole.svg" />
+            <img class="foreground" src="images/foreground.svg" />
+          </div>
+          <div class="wam_square" id="4">
+            <img class="background" src="images/background.svg" />
+            <img class="mole mole--hidden" src="images/mole.svg" />
+            <img class="foreground" src="images/foreground.svg" />
+          </div>
+          <div class="wam_square" id="5">
+            <img class="background" src="images/background.svg" />
+            <img class="mole mole--hidden" src="images/mole.svg" />
+            <img class="foreground" src="images/foreground.svg" />
+          </div>
+          <div class="wam_square" id="6">
+            <img class="background" src="images/background.svg" />
+            <img class="mole mole--hidden" src="images/mole.svg" />
+            <img class="foreground" src="images/foreground.svg" />
+          </div>
+          <div class="wam_square" id="7">
+            <img class="background" src="images/background.svg" />
+            <img class="mole mole--hidden" src="images/mole.svg" />
+            <img class="foreground" src="images/foreground.svg" />
+          </div>
+          <div class="wam_square" id="8">
+            <img class="background" src="images/background.svg" />
+            <img class="mole mole--hidden" src="images/mole.svg" />
+            <img class="foreground" src="images/foreground.svg" />
+          </div>
+          <div class="wam_square" id="9">
+            <img class="background" src="images/background.svg" />
+            <img class="mole mole--hidden" src="images/mole.svg" />
+            <img class="foreground" src="images/foreground.svg" />
+          </div>
+        </div>
+      </section>
+      <section id="game_over">
+        <div>
+          <h2>Game Over</h2>
+          <h3>Moles Whacked: <span class="final_count">00</span></h3>
+          <button id="restart_btn">Restart</button>
+        </div>
+      </section>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
